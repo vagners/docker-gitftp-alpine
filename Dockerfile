@@ -1,9 +1,10 @@
 FROM alpine:latest
 
 RUN apk update && \
-    apk add bash && \
     apk add make && \
-    apk add git
+    apk add git && \
+    apk add bash && \
+    apk add curl
 
 # Install git-ftp (https://github.com/git-ftp/git-ftp/blob/master/INSTALL.md)
 WORKDIR /opt/git-ftp/
