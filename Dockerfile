@@ -1,6 +1,7 @@
 FROM alpine:latest
 
 RUN apk update && \
+    apk add bash && \
     apk add make && \
     apk add git
 
@@ -11,4 +12,4 @@ RUN git clone https://github.com/git-ftp/git-ftp.git /opt/git-ftp && \
     git checkout "$tag" && \
     make install
 
-CMD ["/bin/sh"]
+CMD ["bash"]
