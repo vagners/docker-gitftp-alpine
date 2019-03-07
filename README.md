@@ -1,5 +1,5 @@
-# docker-gitftp-apine
+# docker-gitftp-alpine
 
 Created for Bitbucket Pipelines.
 
-https://hub.docker.com/r/vagneress/gitftp-apine/dockerfile
+https://hub.docker.com/r/vagneress/gitftp-alpine/dockerfile
